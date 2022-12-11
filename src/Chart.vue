@@ -1,11 +1,18 @@
 <script setup>
 import Header from './components/Header.vue'
 import Sidebar from './components/Sidebar.vue'
+import ChartFinancial from './components/ChartFinancial.vue'
 </script>
 
 <template>
   <Header />
   <Sidebar />
+  <div class="row">
+    <div class="col-2"></div>
+    <div class="col-10">
+      <ChartFinancial />
+    </div>
+  </div>
 </template>
 
 <style scoped>
