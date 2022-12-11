@@ -1,13 +1,11 @@
 <script setup>
 import Header from './components/Header.vue'
 import Sidebar from './components/Sidebar.vue'
-import MainBody from './components/MainBody.vue'
 </script>
 
 <template>
   <Header />
   <Sidebar />
-  <MainBody />
 </template>
 
 <style scoped>
